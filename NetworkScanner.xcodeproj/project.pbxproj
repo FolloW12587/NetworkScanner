@@ -11,6 +11,13 @@
 		A168A08E2BAFA3A20089B1C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168A08D2BAFA3A20089B1C8 /* ContentView.swift */; };
 		A168A0902BAFA3A40089B1C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A168A08F2BAFA3A40089B1C8 /* Assets.xcassets */; };
 		A168A0932BAFA3A40089B1C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A168A0922BAFA3A40089B1C8 /* Preview Assets.xcassets */; };
+		A168A09B2BAFA41C0089B1C8 /* NetworkDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A168A09A2BAFA41C0089B1C8 /* NetworkDiscovery.swift */; };
+		A1D8D6662BB3EDBF00E4014E /* NetworkingGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8D6652BB3EDBF00E4014E /* NetworkingGraphic.swift */; };
+		A1D8D6682BB3F81C00E4014E /* Trapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8D6672BB3F81C00E4014E /* Trapezoid.swift */; };
+		A1D8D66A2BB4389500E4014E /* LocationDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8D6692BB4389500E4014E /* LocationDataManager.swift */; };
+		A1D8D66C2BB5403E00E4014E /* RandomDouble.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8D66B2BB5403E00E4014E /* RandomDouble.swift */; };
+		A1D8D66F2BB5412A00E4014E /* NetworkingGraphic2GHz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8D66E2BB5412A00E4014E /* NetworkingGraphic2GHz.swift */; };
+		A1D8D6712BB5423700E4014E /* NetworkingGraphic5GHz.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1D8D6702BB5423700E4014E /* NetworkingGraphic5GHz.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		A168A08F2BAFA3A40089B1C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A168A0922BAFA3A40089B1C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A168A0942BAFA3A40089B1C8 /* NetworkScanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkScanner.entitlements; sourceTree = "<group>"; };
+		A168A09A2BAFA41C0089B1C8 /* NetworkDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDiscovery.swift; sourceTree = "<group>"; };
+		A1D8D6652BB3EDBF00E4014E /* NetworkingGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingGraphic.swift; sourceTree = "<group>"; };
+		A1D8D6672BB3F81C00E4014E /* Trapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trapezoid.swift; sourceTree = "<group>"; };
+		A1D8D6692BB4389500E4014E /* LocationDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDataManager.swift; sourceTree = "<group>"; };
+		A1D8D66B2BB5403E00E4014E /* RandomDouble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomDouble.swift; sourceTree = "<group>"; };
+		A1D8D66E2BB5412A00E4014E /* NetworkingGraphic2GHz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingGraphic2GHz.swift; sourceTree = "<group>"; };
+		A1D8D6702BB5423700E4014E /* NetworkingGraphic5GHz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingGraphic5GHz.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,11 @@
 			children = (
 				A168A08B2BAFA3A20089B1C8 /* NetworkScannerApp.swift */,
 				A168A08D2BAFA3A20089B1C8 /* ContentView.swift */,
+				A1D8D6692BB4389500E4014E /* LocationDataManager.swift */,
+				A1D8D6672BB3F81C00E4014E /* Trapezoid.swift */,
+				A1D8D66D2BB5410900E4014E /* NetworkingGraphics */,
+				A1D8D66B2BB5403E00E4014E /* RandomDouble.swift */,
+				A168A09A2BAFA41C0089B1C8 /* NetworkDiscovery.swift */,
 				A168A08F2BAFA3A40089B1C8 /* Assets.xcassets */,
 				A168A0942BAFA3A40089B1C8 /* NetworkScanner.entitlements */,
 				A168A0912BAFA3A40089B1C8 /* Preview Content */,
@@ -67,6 +86,16 @@
 				A168A0922BAFA3A40089B1C8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A1D8D66D2BB5410900E4014E /* NetworkingGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				A1D8D6652BB3EDBF00E4014E /* NetworkingGraphic.swift */,
+				A1D8D66E2BB5412A00E4014E /* NetworkingGraphic2GHz.swift */,
+				A1D8D6702BB5423700E4014E /* NetworkingGraphic5GHz.swift */,
+			);
+			path = NetworkingGraphics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +168,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1D8D6682BB3F81C00E4014E /* Trapezoid.swift in Sources */,
+				A1D8D6662BB3EDBF00E4014E /* NetworkingGraphic.swift in Sources */,
 				A168A08E2BAFA3A20089B1C8 /* ContentView.swift in Sources */,
 				A168A08C2BAFA3A20089B1C8 /* NetworkScannerApp.swift in Sources */,
+				A1D8D66C2BB5403E00E4014E /* RandomDouble.swift in Sources */,
+				A1D8D66A2BB4389500E4014E /* LocationDataManager.swift in Sources */,
+				A168A09B2BAFA41C0089B1C8 /* NetworkDiscovery.swift in Sources */,
+				A1D8D6712BB5423700E4014E /* NetworkingGraphic5GHz.swift in Sources */,
+				A1D8D66F2BB5412A00E4014E /* NetworkingGraphic2GHz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
